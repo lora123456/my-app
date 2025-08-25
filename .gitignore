@@ -1,54 +1,16 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-*.swp
+vendor/
+var/
+.phpunit.result.cache
+.php-cs-fixer.cache
+composer.json.bak
+cs-log.txt
 
-pids
-logs
-results
-tmp
-
-# Optional npm cache directory
-.npm
-
-#Build
-public/css/main.css
-.nyc_output/*
-
-# API keys and secrets
+# env
 .env
+.env.*
 
-# Dependency directory
-node_modules
-bower_components
-
-package-lock.json
-
-# Editors
-.idea
-.vscode
-*.iml
-modules.xml
-*.ipr
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# OS metadata
+# IDE/OS
+.idea/
+.vscode/
 .DS_Store
 Thumbs.db
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
